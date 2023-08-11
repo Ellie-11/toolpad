@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: page
+spec:
+  id: DiKiwgF
+  title: page1
+  display: shell
+  content:
+    - component: PageRow
+      name: pageRow
+      children:
+        - component: codeComponent.MyComponent
+          name: codeComponent_MyComponent
